@@ -17,6 +17,7 @@ footer {
 }
 body{
 	position: relative;
+	padding-top: 70px;
 }
 picture img{
 	width: 100%;

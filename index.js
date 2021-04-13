@@ -1,7 +1,8 @@
-$(#selh3).click(function(event){
-	$(#contenedor).load('selecciones/colombia.html')
+$("#selh3").click(function(event){
+	$("#contenedor").load('selecciones/colombia.html')
 });
 
 function myFunction() {
-  $(#contenedor).load('selecciones/colombia.html')
+  
+  document.getElementById("container").load('selecciones/colombia.html');
 }

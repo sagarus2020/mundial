@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+	<!-- Optional theme -->
+
+	<link rel="stylesheet" href="css/contacto.css">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+</head>
+<body>
+<form class="contact_form" action="#" id="contact_form" runat="server">
+ <div>
+ <ul>
+ <li>
+ <h2>Contactos</h2>
+ <span class="required_notification">* Datos requeridos</span>
+ </li>
+ <li>
+ <label for="name">Nombre:</label>
+ <input type="text" placeholder="Carlos Rosendo Gutierrez" required />
+ </li>
+ <li>
+ <label for="email">Email:</label>
+ <input type="email" name="email" placeholder="nombre@algo.com" required />
+ <span class="form_hint">Formato correcto: "nombre@algo.com"</span>
+ </li>
+ <li>
+ <label for="website">Sitio web:</label>
+ <input type="url" name="website" placeholder="http://algo.com" required
+pattern="(http|https)://.+" />
+ <span class="form_hint">Formato correcto: "http://algo.com"</span>
+ </li>
+ <li>
+ <label for="message">Mensaje:</label>
+ <textarea name="message" cols="40" rows="6" required></textarea> 
+
+ </li>
+ <li>
+ <button class="submit" type="submit">Enviar mensaje</button>
+ </li>
+ </ul>
+ </div>
+ </form> 
+</body>
